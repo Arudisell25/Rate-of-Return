@@ -10,7 +10,11 @@ The project task was to analyze user data and find possible causes for the compa
 7. [Future Work and Enhancements](#future-work-and-enhancements)
 
 
+## Tableau Public 
 
+https://public.tableau.com/app/profile/amber.grice.rudisell/viz/MeasuringRateofReturn/MeasuringtheRatesofReturnAnalysis
+
+![image](https://github.com/user-attachments/assets/d4bd3769-2134-4dd8-8e62-f946a2aa329d)
 
 
 Proposed Next Steps
