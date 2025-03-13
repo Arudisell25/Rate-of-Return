@@ -10,40 +10,54 @@ The project task was to analyze user data and find possible causes for the compa
 7. [Future Work and Enhancements](#future-work-and-enhancements)
 
 
-## Tableau Public 
-
-https://public.tableau.com/app/profile/amber.grice.rudisell/viz/MeasuringRateofReturn/MeasuringtheRatesofReturnAnalysis
-
 ![image](https://github.com/user-attachments/assets/d4bd3769-2134-4dd8-8e62-f946a2aa329d)
+## Returned Orders Analysis
 
+### Data Sources
+The data appears to be sourced from a company's order and return records. Key data points include:
 
-Proposed Next Steps
-1.	Product Quality Review
-•	Conduct a thorough quality assessment of office supplies, focusing on the most frequently returned items.
-•	Evaluate products with the highest return rates for design flaws or quality issues.
-2.	Customer Behavior Analysis
-•	Investigate customers with multiple purchases and high return rate patterns to identify potential issues or misalignments in product expectations.
-•	Analyze high-return customers to detect common characteristics or behaviors.
-3.	Regional Strategy Adjustment
-•	Develop tailored strategies for California and New York to address their high return rates.
-•	Investigate regional preferences and potential issues specific to these markets.
-4.	Seasonal Preparation
-•	Implement proactive measures for Q3 and Q4 to mitigate the higher return rates, such as improved quality control or customer education.
-5.	Shipping and Logistics Optimization
-•	Review standard class shipping processes in the West region to identify potential issues leading to returns.
-•	Consider offering alternative shipping options or improving packaging for fragile items.
-6.	Return Process Analysis
-•	Investigate why Monday  has the highest return rate and optimize staffing or processes accordingly.
-•	Implement a system to gather more detailed reasons for returns to inform future improvements.
-7.	Product Line Evaluation
-•	Consider redesigning or discontinuing the certain products if improvements cannot be made.
-•	Review the entire furniture category for similar issues affecting profitability.
-8.	Customer Education and Support
-•	Develop targeted content to better inform customers about product features, especially for frequently returned items.
-•	Enhance pre-purchase support to ensure customers select the right products.
-9.	Return Policy Review
-•	Assess the current return policy and consider adjustments that balance customer satisfaction with profitability.
-10.	Data-Driven Decision Making
-•	Implement ongoing analytics to monitor the impact of these changes on return rates and profitability.
-•	Regularly review and adjust strategies based on new data insights.
+- Product categories (Technology, Office Supplies, Furniture).
+- Regional data (Central, East, South, West).
+- Shipping modes and return rates.
+- Temporal data such as quarters and weekdays of order dates.
+- Specific product information (e.g., Advantus Push Pins).
+
+### Tools and Technologies Used
+The visualization suggests the use of:
+
+- Tableau for creating interactive dashboards and visualizations (evident from the design style and interactivity like maps and charts).
+- Mapbox for geographic representation of returns by state.
+
+### Data Preparation and Cleaning
+Steps likely involved in preparing the data:
+
+- **Data Cleaning:** Removing duplicates, handling missing values, and ensuring consistent formatting for dates, regions, and product categories.
+- **Data Transformation:** Aggregating return rates by categories, states, and shipping modes.
+- **Normalization:** Standardizing data formats for analysis across quarters and weekdays.
+- **Integration:** Combining multiple datasets (e.g., sales data with returns data) for comprehensive insights.
+
+### Exploratory Data Analysis (EDA)
+Key insights derived from the dashboard:
+
+- **Category Analysis:** Office Supplies have the highest return rate across all states.
+- **Regional Trends:** The West Region shows the highest return rate for same-day shipping.
+- **Temporal Patterns:** Returns fluctuate significantly by quarter, with peaks in specific periods like Q4 2020.
+- **Product Insights:** Advantus Push Pins have the highest return rate among products.
+- **Day Analysis:** Returns are more frequent on specific weekdays.
+
+### Conclusion and Recommendations
+
+- **Focus on Office Supplies:** Investigate why this category has higher returns across all states. Consider improving product quality or customer education.
+- **Regional Optimization:** Address issues in the West Region's same-day shipping process to reduce returns.
+- **Quarterly Trends:** Prepare for higher returns during peak periods like Q4 by enhancing customer support and return policies.
+- **Product-Specific Action:** Evaluate Advantus Push Pins to identify quality or usability issues.
+
+### Future Work and Enhancements
+
+- **Predictive Analytics:** Use machine learning models to predict future return trends based on historical data.
+- **Customer Feedback Integration:** Incorporate customer reviews and complaints to understand reasons behind high returns.
+- **Granular Analysis:** Dive deeper into state-wise trends to identify specific causes of high returns in Utah.
+- **Shipping Improvements:** Analyze shipping methods further to optimize processes for regions with high same-day shipping returns.
+
+This dashboard provides actionable insights that can help improve operational efficiency, reduce return rates, and enhance customer satisfaction.
 
