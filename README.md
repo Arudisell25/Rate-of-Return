@@ -1,26 +1,13 @@
 # Rate-of-Return
 The project task was to analyze user data and find possible causes for the company return rates based off multiple data points.
 
-# Table of Contents for Rate of Return Analysis
-
-1. **Introduction**
-   - Definition of Rate of Return (RoR)
-   - Importance in Investment Analysis
-
-2. **Rate of Return Metrics**
-   - Internal Rate of Return (IRR)
-   - Incremental Rate of Return (ΔIRR)
-   - Compound Annual Growth Rate (CAGR)
-   - Modified Internal Rate of Return (MIRR)
-
-3. **Mathematical Formulas**
-   - RoR Formula: \( RoR = \frac{\text{Current Value} - \text{Initial Value}}{\text{Initial Value}} \times 100 \)
-   - IRR Calculation Techniques
-   - MIRR Adjustments for Reinvestment Rates
-
-4. **Implementation in Python**
-   - Libraries Required: `pandas`, `numpy`, `statsmodels`
-   - Code for Calculating Monthly Returns
+1. [Project Overview](#project-overview)
+2. [Data Sources](#data-sources)
+3. [Tools and Technologies Used](#tools-and-technologies-used)
+4. [Data Preparation and Cleaning](#data-preparation-and-cleaning)
+5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+6. [Conclusion and Recommendations](#conclusion-and-recommendations)
+7. [Future Work and Enhancements](#future-work-and-enhancements)
 
 
 
